@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Certified</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <meta charset="UTF-8">
+        <img src="./Handdrawn Circle Logo.png" alt="Abhinab & Lala">
+        <h3><b><u>Congratulations on completing Local Attraction</u></b></h3>
+        <h1>Download your Certificate now</h1>
+    </header>
+
+    <main>
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="Name" id="name" autocomplete="name" placeholder="Your Name" minlength="3" maxlength="">
+        <button type="submit" id="submit">Get Certificate</button>
+    </main>
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 50px;
+    font-size: 1.5em;
+}
+
+header * {
+    font-weight: normal;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+h1{
+    color: goldenrod;
+}
+
+img{
+    border-radius: 150%;
+    height: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main * {
+    margin: 6px;
+}
+
+input[name="Name"]{
+    font-size: large;
+    text-align: center;
+}
+
+#submit{
+    background: lightblue;
+    font-size: 0.7em;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
